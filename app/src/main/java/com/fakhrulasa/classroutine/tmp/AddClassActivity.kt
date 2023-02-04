@@ -1,18 +1,16 @@
-package com.fakhrulasa.classroutine
+package com.fakhrulasa.classroutine.tmp
 
-import android.content.Intent
-import android.graphics.drawable.Drawable
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import com.fakhrulasa.classroutine.ClassItem
 import com.fakhrulasa.classroutine.databinding.ActivityAddClassBinding
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import java.text.SimpleDateFormat
-import java.time.format.DateTimeFormatter
 import java.util.Date
 import java.util.Locale
 
