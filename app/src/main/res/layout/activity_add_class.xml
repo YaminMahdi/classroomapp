@@ -6,20 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".AddClassActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:alpha="0.1"
-        android:contentDescription="@string/class_name"
-        android:scaleType="centerCrop"
-        android:src="@drawable/class_image"
-        android:tintMode="add"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tint="#68B3F6FF" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"

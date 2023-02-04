@@ -55,7 +55,7 @@ class AddClassActivity : AppCompatActivity() {
             db.collection("routine")
                 .add(data)
                 .addOnSuccessListener { Log.d("TAG", "DocumentSnapshot successfully written!")
-                    startActivity(Intent(this, RoutineActivity::class.java))
+                    //startActivity(Intent(this, RoutineActivity::class.java))
                 }
                 .addOnFailureListener { e -> Log.w("TAG", "Error writing document", e) }
         }
